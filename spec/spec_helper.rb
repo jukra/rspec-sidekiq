@@ -3,6 +3,7 @@
 require 'pry'
 
 require 'sidekiq'
+require "sidekiq/rails"
 require 'rspec-sidekiq'
 
 require 'active_job'
